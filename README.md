@@ -7,7 +7,7 @@
 [http://localhost:3000](http://localhost:3000) -->
 
 ## Preview
-<img src="public/preview.png"/>
+<img src="/public/preview.png"/>
 
 ### `npm start`
 Executa o aplicativo no modo de desenvolvimento.\
