@@ -1,15 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import './theme/global.css';
+
 import reportWebVitals from './reportWebVitals';
+import AppRoutes from './routes';
+import theme from './theme';
+import AuthProvider from './context/AuthProvider';
+import ShopProvider from './context/ShopProvider';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <AuthProvider>
+        <ShopProvider>
+          <AppRoutes />
+        </ShopProvider>
+      </AuthProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );
 
