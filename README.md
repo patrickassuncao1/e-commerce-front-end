@@ -3,8 +3,8 @@
     
     Obs: Não se esqueça de utilizar o projeto com back-end link do repositório logo abaixo.
 
-<!-- ## Repositório para o back-end
-[http://localhost:3000](http://localhost:3000) -->
+## Repositório para o back-end
+[https://github.com/patrickassuncao1/e-coomerce-back-end](Repositório Back-end)
 
 ## Preview
 <img src="/public/preview.png"/>
