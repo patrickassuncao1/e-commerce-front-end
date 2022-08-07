@@ -4,7 +4,7 @@
     Obs: Não se esqueça de utilizar o projeto com back-end link do repositório logo abaixo.
 
 ## Repositório para o back-end
-[https://github.com/patrickassuncao1/e-coomerce-back-end](Repositório Back-end)
+<a href="https://github.com/patrickassuncao1/e-coomerce-back-end">Repositório Back-end</a>
 
 ## Preview
 <img src="/public/preview.png"/>
